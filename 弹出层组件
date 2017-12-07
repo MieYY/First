@@ -1,0 +1,5 @@
+ 无回调的提示：
+ Modal.alert({msg:'111'})
+ 
+ 有回调的提示：
+  Modal.confirm({msg:'111'},function(is){console.log(is)})
